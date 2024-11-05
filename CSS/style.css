@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #007bff;
+}
+
+.logo {
+    font-size: 1.8rem; /* Augmenté pour une meilleure visibilité */
+    font-weight: bold;
+    color: #fff;
+}
+
+
+/* Style pour les mots en bleu */
+.highlight {
+    color: #007bff; /* Bleu pour les mots en surbrillance */
+    font-weight: bold;
+}
+
+/* Bouton d'appel à l'action */
+.cta-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px; /* Coins très arrondis */
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+
+.logo span {
+    color: #f8f9fa;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+}
+
+.login {
+    color: #007bff;
+    background-color: #fff;
+}
+
+.signup {
+    background-color: #6c757d;
+}
+
+/* Section Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #eef2ff;
+}
+
+.hero .content {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 2.5rem; /* Augmenté pour un titre plus visible */
+    font-weight: bold;
+    color: #333;
+}
+
+.hero h1 span {
+    color: #007bff;
+}
+
+.hero p {
+    margin-top: 1rem;
+    line-height: 1.6;
+    color: #555;
+    font-size: 1.1rem; /* Taille de police légèrement augmentée */
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.hero .image img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Styles pour les appareils mobiles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+        background-color: #333;
+        width: 100%;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+
+    nav a {
+        color: #fff;
+    }
+
+    .buttons {
+        margin-top: 1rem;
+        gap: 0.5rem;
+    }
+
+    .login, .signup {
+        padding: 0.5rem 1rem;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .hero .content {
+        max-width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 2rem; /* Taille de police ajustée pour mobile */
+    }
+
+    .hero p {
+        font-size: 1rem; /* Texte légèrement plus petit sur mobile */
+    }
+
+    .cta-button {
+        font-size: 1rem; /* Ajustement du bouton pour mobile */
+    }
+
+    .hero .image img {
+        width: 100%;
+        max-width: 300px;
+        margin-top: 1rem;
+    }
+}
+
