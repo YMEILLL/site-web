@@ -15,13 +15,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #007bff;
 }
 
 .logo {
     font-size: 1.8rem; /* Augmenté pour une meilleure visibilité */
     font-weight: bold;
-    color: #fff;
+    color: black;
 }
 
 
@@ -45,10 +44,6 @@ header {
 }
 
 
-.logo span {
-    color: #f8f9fa;
-}
-
 nav ul {
     list-style: none;
     display: flex;
@@ -65,22 +60,14 @@ nav a {
     gap: 1rem;
 }
 
-button {
-    padding: 0.5rem 1rem;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: transparent;
-    color: #fff;
-}
-
 .login {
-    color: #007bff;
-    background-color: #fff;
+    color: white;
+    background-color: #007bff;
 }
 
 .signup {
-    background-color: #6c757d;
+    background-color:  #007bff;
+    color: white;
 }
 
 /* Section Hero */
@@ -137,6 +124,7 @@ button {
         flex-direction: column;
         align-items: center;
         padding: 1rem;
+        background-color: #007bff;
     }
 
     nav ul {
